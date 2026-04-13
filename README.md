@@ -10,7 +10,10 @@ Built and maintained by [michtio](https://github.com/michtio). Covers both **plu
 
 ```bash
 # Claude Code Plugin (recommended)
-/plugin install craftcms-claude-skills@michtio/craftcms-claude-skills
+# Step 1: Add the marketplace (only for initial installs not needed for updates)
+/plugin marketplace add michtio/craftcms-claude-skills
+# Step 2: Install the plugin
+/plugin install craftcms-claude-skills@craftcms-claude-skills 
 
 # Or via Vercel Skills CLI
 npx skills add michtio/craftcms-claude-skills --all
